@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const UserSchema = new mongoose.Schema({
-  firsName: {
+  firstName: {
     type: String,
     trim: true, //effacer les espacements avant et aprés
     required: [true, "firtName is required !"], // ce champs est obligatoire
